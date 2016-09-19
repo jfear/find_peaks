@@ -1,0 +1,22 @@
+package:
+    name: find_peaks
+    version: 1.0.0
+
+source:
+    git_rev: 2259915d08c7d5a
+    git_url: https://github.com/owenjm/find_peaks.git
+
+build:
+    number: 0
+    skip: False
+
+requirements:
+    run:
+        - bowtie2
+        - samtools
+
+test:
+
+about:
+    home: http://owenjm.github.io/damidseq_pipeline
+    license: GPL
